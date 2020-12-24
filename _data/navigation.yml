@@ -1,0 +1,16 @@
+- title: Domů
+  url: "/"
+- title: Detaily
+  url: detaily.html
+- title: Dress Code
+  url: dresscode.html
+- title: Dary
+  url: dary.html
+- title: Menu
+  url: menu.html
+- title: Ubytování
+  url: ubytovani.html
+- title: Galerie
+  url: galerie.html
+- title: Časté dotazy
+  url: dotazy.html

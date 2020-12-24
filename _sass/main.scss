@@ -1,0 +1,67 @@
+// GLOBAL CSS
+@font-face {
+  font-family: 'amostely';
+  src: url('/assets/fonts/AmostelySignature.ttf');
+}
+
+.amostely {
+  font-family: 'amostely';
+}
+
+body {
+    @extend .text-navy;
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+// GLOBAL LINKS
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  @extend .text-navy;
+  transition: all 0.5 ease;
+}
+
+// NAV
+.nav-scroll {
+  @extend .text-white;
+  @extend .bg-navy;
+  transition: all 0.5s ease;
+}
+.nav-top {
+  @extend .text-white;
+  backround-color: none;
+  transition: all 0.5s ease;
+}
+
+#navbar {
+  @extend .text-white;
+}
+
+// HEADER //
+h1 {
+  // font-family: 'Allura', cursive;
+  font-family: 'amostely';
+  @extend .text-white;
+  font-size: 6rem;
+  font-weight: bold;
+  // font-family: 'Euphoria Script', cursive;
+}
+#datum {font-size: 1.5rem; @extend .text-white}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+// COLORS
+.bg-navy{background-color:#112545}
+.bg-champagne{background-color:#f7e7ce}
+.bg-rose{background-color:#fc94af}
+.bg-gold{background-color:#bd9c50}
+.bg-white{background-color:#fff}
+.text-navy{color:#112545}
+.text-champagne{color:#f7e7ce}
+.text-rose{color:#fc94af}
+.text-gold{color:#bd9c50}
+.text-white{color:#fff}
