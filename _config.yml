@@ -1,0 +1,16 @@
+name: takpak.cz
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+permalink: :name

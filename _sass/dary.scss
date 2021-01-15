@@ -1,0 +1,19 @@
+.parallax {
+  background: linear-gradient(0deg, rgba(189, 156, 80, 0.15), rgba(189, 156, 80, 0.15)), url('/assets/images/dary/header.jpg');
+  min-height: 60vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 760px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
