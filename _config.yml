@@ -9,4 +9,4 @@ defaults:
 exclude:
   - README.md
 
-permalink: :name
+permalink: :title

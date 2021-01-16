@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    {% for img in site.data.gallery %}
+    <div class="col-md-4 pt-4">
+      <a data-fancybox="gallery" href="{{img.full-path}}">
+        <img src="{{img.thumb-path}}" alt="{{ img.title }}">
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
