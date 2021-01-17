@@ -1,16 +1,16 @@
 - title: Domů
   url: "/"
 - title: Detaily
-  url: detaily.html
+  url: detaily
 - title: Dress Code
-  url: dresscode.html
+  url: dresscode
 - title: Dary
-  url: dary.html
+  url: dary
 - title: Menu
-  url: menu.html
+  url: menu
 - title: Ubytování
-  url: ubytovani.html
+  url: ubytovani
 - title: Galerie
   url: galerie.html
 - title: Časté dotazy
-  url: dotazy.html
+  url: dotazy

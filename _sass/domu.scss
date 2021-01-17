@@ -14,9 +14,13 @@
 }
 
 @media only screen and (max-device-width: 760px) {
-  .parallax {
-    background-attachment: scroll;
-    background-position: bottom;
+    .parallax {
+      background-attachment: scroll;
+      background-position: bottom;
+
+    img .team-mem {
+      width: 70%!important;
+    }
   }
 
   #datum {
