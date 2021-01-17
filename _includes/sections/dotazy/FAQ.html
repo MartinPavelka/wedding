@@ -2,27 +2,12 @@
   <div class="row">
     <div class="col-md-12 pt-4">
       <ul class="list-group list-group-flush">
+        {% for item in site.data.faq %}
         <li class="list-group-item mt-3">
-          <b>Kdy se mám v sobotu ubytovat a dokdy se mám v neděli vystěhovat?</b>
-          <p class="caption">Ještě nemáme přesné časy, pravděpodobně je check-in v sobotu možný od 14:00, check-out je nutný do 11:00 (v hotelu), do 10:00 (v penzionu)</p>
+          <b>{{ item.question }}</b>
+          <p class="caption">{{ item.answer }}</p>
         </li>
-        <li class="list-group-item mt-3">
-          <b>Kde si mám nechat věci, když se můžu ubytovat až po obřadu a obědě?</b>
-          <p class="caption">Žádný strach, připravili jsme pro vás místnost, kam si můžete uschovat zavazadla do doby check-inu. Pokud byste se snad potřebovali upravit, či převléknout, pak vám bude k dispozici prostor v kongresovém či wellness centru.</p>
-        </li>
-        <li class="list-group-item mt-3">
-          <b>Nemám oblečení požadované barvy, je to problém?</b>
-          <p class="caption">Určitě není. Budeme moc rádi, když se vám podaří sladit se s barvami svatby, ale není to samozřejmě podmínka. Malý tip: Pokud by se vám nepodařilo sehnat vše v barvách svatby, i malý detail oceníme, jako třeba růžový kapesníček do klopy, či modré lodičky.</p>
-        </li>
-        <li class="list-group-item mt-3">
-          <b>Můžeme přijet dřív, než v sobotu?</b>
-          <p class="caption">Určitě ano, rádi vás přivítáme už v pátek! Pokud byste chtěli zajistit ubytování, dejte nám prosím vědět co nejdříve.</p>
-        </li>
-        <li class="list-group-item mt-3">
-          <b>Jak je to s konzumací alkoholu, co všechno je hrazeno a co si platím sám?</b>
-          <p class="caption">Od nás máte hrazeno víno z vinařství, místní pivo Wolfgang (točené), a alkohol, který naleznete v “Gentlmanském koutku”. Pak samozřejmě hradíme nealkoholické domácí limonády, vodu a teplé nápoje jako káva a čaj.<br>
-            Vše ostatní, zejména tedy tvrdý alkohol, či lahvové pivo, si hradíte sami (hotově/kartou/v případě, že bydlíte v hotelu, je možné napsat na pokoj).</p>
-        </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
