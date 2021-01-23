@@ -7,9 +7,16 @@
   <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav ml-auto">
         {% for item in site.data.navigation %}
-        <li class="nav-item">
-          <a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
-        </li>
+            {% if page.url == item.url %}
+              <li class="nav-item">
+                <a href="{{ item.url }}" class="nav-link font-weight-bold">{{ item.title }}</a>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
+              </li>
+            {% endif %}
+
         {% endfor %}
       </ul>
     </div>
