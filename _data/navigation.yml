@@ -1,0 +1,14 @@
+- name: My
+  link: /#my
+- name: Pozvánka
+  link: /#pozvanka
+- name: Místo
+  link: /#misto
+- name: Harmonogram
+  link: /#harmonogram
+- name: Lidi
+  link: /#lidi
+- name: Dary
+  link: /#dary
+- name: Foto
+  link: /#foto

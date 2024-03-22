@@ -1,0 +1,30 @@
+
+.main-header {
+    background: url('/assets/images/flaua.jpg'), rgba(188, 221, 152, 0.95);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.invite {
+    background: url('/assets/images/flaua.jpg'), rgba(188, 221, 152, 0.95);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 10vh;
+    width: 100%;
+    color: white;
+}
+
+.main-header h1 {
+    font-size: 5rem;
+}
+
+.main-header p {
+    font-size: 3rem;
+}

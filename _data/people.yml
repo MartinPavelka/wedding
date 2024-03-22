@@ -1,0 +1,40 @@
+- name: Tereza Mišejková
+  pic: tereza.jpg
+  role: Svědkyně
+  text: "Bomba kámoŠ"
+  her: true
+- name: Denisa Karlová
+  pic: denisa.jpg
+  role: Družička
+  text: horší kámoš
+  her: true
+- name: Marek Pospíšil
+  pic: marek.jpg
+  role: Družec
+  text: bratr
+  her: true
+- name: Kaitlyn Rutherford
+  pic: kaitlyn.jpg
+  role: Bridesmaid
+  text: Sister
+  her: true
+- name: Nathan Orick
+  pic: nathan.jpg
+  role: Best Man
+  text: Cousin
+  his: true
+- name: Garrett Orick
+  pic: garrett.jpg
+  role: Groomsman
+  text: Cousin
+  his: true
+- name: Byrge
+  pic: byrge.jpg
+  role: Groomsman
+  text: High School Friend
+  his: true
+- name: Ivey
+  pic: ivey.jpg
+  role: Groomsman
+  text: High School Friend
+  his: true
