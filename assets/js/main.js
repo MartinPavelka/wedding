@@ -1,15 +1,11 @@
-if( document.cookie.indexOf("language=") < 0) {
-  document.cookie = "language=cz";
-}
-
 $(window).scroll(function() {
-  var hiddenNavBar = $(".navbar.navbar-hidden-top");
+  var hiddenNavBar = $("#navbar");
 
   if (hiddenNavBar.length) {
     if (hiddenNavBar.offset().top > 50) {
-        $(".fixed-top").addClass("top-nav-collapse", 1000, "easeOutBounce" );
+        $(".navbar-expand-lg").addClass("top-nav-collapse", 1000, "easeOutBounce" );
     } else {
-        $(".fixed-top").removeClass("top-nav-collapse", 1000, "easeOutBounce" );
+        $(".navbar-expand-lg").removeClass("top-nav-collapse", 1000, "easeOutBounce" );
     }  
   }
 });

@@ -1,24 +1,19 @@
- <!-- Navigation -->
- <nav class="navbar fixed-top navbar-expand-lg" role="navigation" id="navbar">
+<nav class="navbar fixed-top navbar-expand-lg" role="navigation" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{site.baseurl}}/">
-            {{ site.data.data.bride.short_name | slice: 0 }}
-            &
-            {{ site.data.data.groom.short_name | slice: 0 }}
+            {{ site.data.data.bride.short_name | slice: 0 }} & {{ site.data.data.groom.short_name | slice: 0 }}
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="#navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="navbar-main-collapse">
+        <div class="collapse navbar-collapse navbar-right" id="navbarScroll">
             <ul class="nav navbar-nav ms-auto">
                 {% for item in site.data.navigation %}
                 {% if item.modal_id %}
                 <li class="modal-link nav-item">
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#{{item.modal_id}}">
                         {{ item.name }}
-                        <!-- <i class="fa fa-exclamation-circle modal-link--icon"></i> -->
                     </a>
                 </li>
                 {% else %}
@@ -29,7 +24,5 @@
                 {% endfor %}
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container -->
 </nav>
