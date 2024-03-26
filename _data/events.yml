@@ -1,42 +1,21 @@
-- description: Event placeholder
-  time: 12:00 - 13:00
-- description: Event placeholder dawd 
-  time: 12:00 - 13:00
-  sobota: true
-- description: Event placeholder
-  time: 12:00 - 13:00
-  sobota: true
-- description: Event placeholder
-  time: 12:00 - 13:00
-  sobota: true
-- description: Event placeholder
-  time: 12:00 - 13:00
-  sobota: true
-- description: Event placeholderdawd aw
-  time: 12:00 - 13:0
-  sobota: true
-- description: Event placeholder dwafwwa 
-  time: 12:00 - 13:00
-  sobota: true
+- date: 30.5.2024
+  name: Pátek
+  events:
+    - description: Přípravy prostor
+      time: 19:00 - 21:00
+- date: 1.6.2024
+  name: Sobota
+  events:
+    - description: Přípravy prostor
+      time: 19:00 - 21:00
+- date: 2.6.2024
+  name: Neděle
+  events:
+    - description: Přípravy prostor
+      time: 19:00 - 21:00
+    - description: Přípravy prostor
+      time: 19:00 - 21:00
+    - description: Přípravy prostor
+      time: 19:00 - 21:00  
 
-- description: Event Placeholder
-  time: 12:00 - 13:00
-  nedele: true
-- description: Event Placeholder
-  time: 12:00 - 13:00
-  nedele: true
-- description: Event Placeholder
-  time: 12:00 - 13:00
-  nedele: true
-- description: Event Placeholder
-  time: 12:00 - 13:00
-  nedele: true
-- description: Event Placeholder
-  time: 12:00 - 13:00
-  nedele: true
-- description: Event Placeholder
-  time: 12:00 - 13:00
-  nedele: true
-- description: Event Placeholder
-  time: 12:00 - 13:00
-  nedele: true
+      

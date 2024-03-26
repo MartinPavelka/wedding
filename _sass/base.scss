@@ -1,7 +1,7 @@
 $backgroundColor: #ffffff;
 $bodyColor: #141414;
-$bodyFont: 'Cardo', serif;
-$headingFont: 'Raleway', sans-serif;
+$bodyFont: "Space Mono", monospace;
+$headingFont: "Roboto", sans-serif;
 $yellow-d: #FCF14C;
 $yellow-b: #FFF18E;
 $green-d: #79A84A;
@@ -9,7 +9,7 @@ $green-b: #BAD77B;
 $blue-d: #5FA3E3;
 $blue-b: #9BC5FE;
 
-header {
+body {
     font-family: $bodyFont;
   }
   
@@ -18,7 +18,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 section h2 {

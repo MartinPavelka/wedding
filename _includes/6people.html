@@ -1,0 +1,56 @@
+<section id="people">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="">Naši peepz</h2>
+            </div>
+        </div>
+        
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="col-12 text-center">
+                    <h3 class="">Tým Nina</h3>
+                    {% for person in site.data.people %}
+                    {% if person.her %}
+                    <div class="row mb-3 text-center">
+                        <div class="col-12">
+                            <img class="img-fluid mb-3" src="{{ person.image | default: 'http://via.placeholder.com/300x300' }}" alt="{{ person.name }}">
+                        </div>
+                        <div class="col-12">
+                            <h4 class="">{{ person.name }}</h4>
+                        </div>
+                        <div class="col-12">
+                            <p>{{ person.text }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>    
+            </div>
+            <div class="col-lg-6">
+                <div class="col-12 text-center">
+                    <h3 class="">Tým Martin</h3>
+                    {% for person in site.data.people %}
+                    {% if person.his %}
+                    <div class="row mb-3 text-center">
+                        <div class="col-12">
+                            <img class="img-fluid mb-3" src="{{ person.image | default: 'http://via.placeholder.com/300x300' }}" alt="{{ person.name }}">
+                        </div>
+                        <div class="col-12">
+                            <h4 class="">{{ person.name }}</h4>
+                        </div>
+                        <div class="col-12">
+                            <p>{{ person.text }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>    
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+

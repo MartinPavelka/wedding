@@ -1,6 +1,6 @@
 
 .main-header {
-    background: url('/wedding/assets/images/flaua.jpg'), rgba(188, 221, 152, 0.95);
+    background: url($baseurl+'/assets/images/flaua.jpg'), rgba(188, 221, 152, 0.95);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -11,7 +11,7 @@
 }
 
 .invite {
-    background: url('/wedding/assets/images/flaua.jpg'), rgba(188, 221, 152, 0.95);
+    background: url($baseurl+'/assets/images/flaua.jpg'), rgba(188, 221, 152, 0.95);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;

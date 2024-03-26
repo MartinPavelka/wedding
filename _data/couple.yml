@@ -1,8 +1,10 @@
-spouse1: 
-  short_name: Nina
+- short_name: Nina
+  photo: http://via.placeholder.com/150
   long_name: Nina Laketić
   role: Nevěsta
-spouse2:
-  short_name: Martin
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ed
+- short_name: Martin
+  photo: http://via.placeholder.com/150
   long_name: Martin Stoček
   role: Ženich
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ed

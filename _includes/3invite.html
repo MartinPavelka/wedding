@@ -1,0 +1,23 @@
+<section id="invite">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="">Pozvánka</h2>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center mb-5">
+            <div class="col text-center">Dress code páni</div>
+            <div class="col text-center">Vítejte a přijďte dnes, díky moc, paráda</div>
+            <div class="col text-center">Dress code dámové</div>
+        </div>
+        <div class="row align-items-center justify-content-center text-center">
+            <h2>Dresscode barva škála věc</h2>
+            <div class="col text-center">
+                {% for color in site.data.dresscode.colors %}
+                <span style="display: inline-block; width: 5em; height: 5em; background-color: #{{color}}; border-radius: 50%"></span>
+                {% endfor %}
+            </div>
+        </div>        
+    </div>        
+</div>  
+</section>
