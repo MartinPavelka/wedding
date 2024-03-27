@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg" role="navigation" id="navbar">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{site.baseurl}}/">
+        <a class="navbar-brand" href="#">
             {{ site.data.data.bride.short_name | slice: 0 }} & {{ site.data.data.groom.short_name | slice: 0 }}
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="#navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,17 +10,9 @@
         <div class="collapse navbar-collapse navbar-right" id="navbarScroll">
             <ul class="nav navbar-nav ms-auto">
                 {% for item in site.data.navigation %}
-                {% if item.modal_id %}
-                <li class="modal-link nav-item">
-                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#{{item.modal_id}}">
-                        {{ item.name }}
-                    </a>
+                <li class="nav-item">
+                    <a href="#{{site.baseurl}}{{item.link}}" class="nav-link">{{ item.name }}</a>
                 </li>
-                {% else %}
-                <li class="{% if page.url == {{site.baseurl}}/item.link %}active{% endif %} nav-item">
-                    <a href="{{site.baseurl}}{{item.link}}" class="nav-link">{{ item.name }}</a>
-                </li>
-                {% endif %}
                 {% endfor %}
             </ul>
         </div>

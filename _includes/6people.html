@@ -13,8 +13,8 @@
                     {% for person in site.data.people %}
                     {% if person.her %}
                     <div class="row mb-3 text-center">
-                        <div class="col-12">
-                            <img class="img-fluid mb-3" src="{{ person.image | default: 'http://via.placeholder.com/300x300' }}" alt="{{ person.name }}">
+                        <div class="col-12 d-none d-sm-block">
+                            <img class="rounded-circle mb-3" src="{{ person.image | default: 'http://via.placeholder.com/300x300' }}" alt="{{ person.name }}">
                         </div>
                         <div class="col-12">
                             <h4 class="">{{ person.name }}</h4>
@@ -33,8 +33,8 @@
                     {% for person in site.data.people %}
                     {% if person.his %}
                     <div class="row mb-3 text-center">
-                        <div class="col-12">
-                            <img class="img-fluid mb-3" src="{{ person.image | default: 'http://via.placeholder.com/300x300' }}" alt="{{ person.name }}">
+                        <div class="col-12 d-none d-sm-block">
+                            <img class="rounded-circle mb-3" src="{{ person.image | default: 'http://via.placeholder.com/300x300' }}" alt="{{ person.name }}">
                         </div>
                         <div class="col-12">
                             <h4 class="">{{ person.name }}</h4>

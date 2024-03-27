@@ -1,40 +1,30 @@
 - name: Tereza Mišejková
-  pic: tereza.jpg
+  image: /assets/images/people/honormaid.png
   role: Svědkyně
   text: "Bomba kámoŠ"
   her: true
 - name: Denisa Karlová
-  pic: denisa.jpg
+  image: /assets/images/people/maid1.png
   role: Družička
   text: horší kámoš
   her: true
 - name: Marek Pospíšil
-  pic: marek.jpg
+  image: /assets/images/people/maid2.png
   role: Družec
-  text: bratr
+  text: Nejhorší kámoš
   her: true
-- name: Kaitlyn Rutherford
-  pic: kaitlyn.jpg
-  role: Bridesmaid
-  text: Sister
-  her: true
-- name: Nathan Orick
-  pic: nathan.jpg
+- name: Fanta Nespesny
+  image: /assets/images/people/bestman.png
   role: Best Man
   text: Cousin
   his: true
-- name: Garrett Orick
-  pic: garrett.jpg
+- name: Grebor Gauner
+  image: /assets/images/people/groomsman1.png
   role: Groomsman
   text: Cousin
   his: true
-- name: Byrge
-  pic: byrge.jpg
-  role: Groomsman
-  text: High School Friend
-  his: true
-- name: Ivey
-  pic: ivey.jpg
+- name: Batin Marvelka
+  image: /assets/images/people/groomsman2.png
   role: Groomsman
   text: High School Friend
   his: true

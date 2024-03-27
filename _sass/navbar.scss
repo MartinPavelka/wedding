@@ -22,10 +22,17 @@
 .navbar-custom a {
     text-decoration: none;
 }
-.navbar-brand, .nav-link {
-    color: white
+
+.top-nav-collapse .nav-link, .top-nav-collapse .navbar-brand, .top-nav-collapse .navbar-brand:focus {
+    color: #333333;
+}
+
+.navbar-brand, .nav-link, .navbar-brand:focus, .navbar-brand:link,    {
+    color: white;
 }
 
 .top-nav-collapse {
-    background: $yellow-d;
+    background: rgba($color: #fff, $alpha: 0.8);
+    color: #333333;
 }
+
