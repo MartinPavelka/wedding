@@ -14,7 +14,7 @@
                     {% if person.her %}
                     <div class="row mb-3 text-center">
                         <div class="col-12 d-none d-sm-block">
-                            <img class="rounded-circle mb-3" src="{{ site.baserul + person.image | default: 'http://via.placeholder.com/300x300' }}" alt="{{ person.name }}">
+                            <img class="rounded-circle mb-3" src="{{ site.baserul }}{{person.image}}" alt="{{ person.name }}">
                         </div>
                         <div class="col-12">
                             <h4 class="">{{ person.name }}</h4>
@@ -34,7 +34,7 @@
                     {% if person.his %}
                     <div class="row mb-3 text-center">
                         <div class="col-12 d-none d-sm-block">
-                            <img class="rounded-circle mb-3" src="{{ site.baseurl + person.image | default: 'http://via.placeholder.com/300x300' }}" alt="{{ person.name }}">
+                            <img class="rounded-circle mb-3" src="{{ site.baserul }}{{person.image}}" alt="{{ person.name }}">
                         </div>
                         <div class="col-12">
                             <h4 class="">{{ person.name }}</h4>
