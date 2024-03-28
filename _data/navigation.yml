@@ -1,12 +1,14 @@
-- name: My
-  link: aboutus
 - name: Pozvánka
   link: invite
+- name: My
+  link: aboutus
 - name: Místo
   link: venue
+- name: Dresscode
+  link: dresscode
 - name: Harmonogram
   link: timetable
-- name: Lidi
+- name: Kontakty
   link: people
 - name: Dary
   link: gifts

@@ -1,10 +1,10 @@
 - short_name: Nina
-  photo: http://via.placeholder.com/150
+  photo: /assets/images/couple/nina.jpg
   long_name: Nina Laketić
   role: Nevěsta
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ed
 - short_name: Martin
-  photo: http://via.placeholder.com/150
+  photo: /assets/images/couple/marty.jpg
   long_name: Martin Stoček
   role: Ženich
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ed

@@ -1,30 +1,12 @@
 - name: Tereza Mišejková
-  image: /assets/images/people/honormaid.png
-  role: Svědkyně
-  text: "Bomba kámoŠ"
-  her: true
-- name: Denisa Karlová
-  image: /assets/images/people/maid1.png
-  role: Družička
-  text: horší kámoš
-  her: true
-- name: Marek Pospíšil
-  image: /assets/images/people/maid2.png
-  role: Družec
-  text: Nejhorší kámoš
-  her: true
-- name: Fanta Nespesny
-  image: /assets/images/people/bestman.png
-  role: Best Man
-  text: Cousin
-  his: true
-- name: Grebor Gauner
-  image: /assets/images/people/groomsman1.png
-  role: Groomsman
-  text: Cousin
-  his: true
-- name: Batin Marvelka
-  image: /assets/images/people/groomsman2.png
-  role: Groomsman
-  text: High School Friend
-  his: true
+  role: Svědkyně nevěsty
+  number: "+420 777 964 477"
+- name: Fanda Sedláček
+  role: Svědek ženicha
+  number: "+420 721 176 092"
+- name: Branka Laketić
+  role: Maminka nevěsty
+  number: "+420 604 295 056"
+- name: Eva Stočková
+  role: Maminka ženicha
+  number: "+420 720 759 582"

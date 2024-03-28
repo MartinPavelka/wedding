@@ -1,21 +1,18 @@
-- date: 30.5.2024
-  name: Pátek
-  events:
-    - description: Přípravy prostor
-      time: 19:00 - 21:00
 - date: 1.6.2024
   name: Sobota
   events:
-    - description: Přípravy prostor
-      time: 19:00 - 21:00
-- date: 2.6.2024
+    - description: Příjezd, Welcome drink, Ubytování hostů,(Hosté bez ubytování mohou dorazit před 13:00)
+      time: "12:00"
+    - description: Obřad
+      time: "13:30"
+    - description: Společné focení
+      time: "14:00"
+    - description: Recepce (oběd formou rautu, živá hudba a další svatební radosti)
+      time: "14:30"
+- date: 2.7.2024
   name: Neděle
   events:
-    - description: Přípravy prostor
-      time: 19:00 - 21:00
-    - description: Přípravy prostor
-      time: 19:00 - 21:00
-    - description: Přípravy prostor
-      time: 19:00 - 21:00  
-
-      
+    - description: Snídaně
+      time: "09:00"
+    - description: Odjezd hostů
+      time: "11:00"

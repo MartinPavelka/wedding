@@ -1,0 +1,23 @@
+<section id="timetable">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="">Harmonogram</h2>
+            </div>
+            {% for day in site.data.events %}
+            <div class="col-lg-6 text-center">
+                <h3>{{day.name}}, {{day.date}}</h3>
+                <div id="content">
+                    <ul class="timeline mb-5">
+                        {% for event in day.events %}
+                        <li class="event" data-date="{{ event.time }}">
+                            <span>{{ event.description }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>                            
+            {% endfor %}
+        </div>
+    </div>
+</section>

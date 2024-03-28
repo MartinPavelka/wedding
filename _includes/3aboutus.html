@@ -2,21 +2,21 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="">About Us</h2>
+        <h2 class="">A kdože vy jste?</h2>
       </div>
     </div>
     <div class="row align-items-center">
       {% for person in site.data.couple %}
       <div class="col-md-6 text-center">
-        <img src="{{person.photo}}" class="rounded-circle mt-3 mb-5" alt="{{Image Placeholder}}">
-        <h3>{{person.short_name}}</h3>
-        <div class="row">
-          <div class="col text-justify">
-            <p>{{person.description}}</p>
-          </div>
-        </div>
+        <img src="{{person.photo}}" class="rounded-circle mt-3 mb-3" alt="{{Image Placeholder}}">
+        <h3>{{person.long_name}}</h3>
       </div>
       {% endfor %}
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-12 mt-5">
+          <p>{{site.data.data.story}}</p>
+        </div>
       </div>
     </div>    
   </div>  

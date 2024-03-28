@@ -1,0 +1,22 @@
+<section id="people">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="">Na koho se obrátit</h2>
+                <p>Před samotným dnem svatby samozřejmě můžete obracet na nás</p>
+                <p>Ráno před svatbou je pravděpodobné, že budeme zaneprázdněni, a tak se prosím obracejte naše nejhodnější parťáky a maminky:</p>
+            </div>
+        </div>
+        <div class="row align-items-center mt-5">
+            {% for person in site.data.people %}
+            <div class="col-md-3 text-center card pt-3">
+                <div class="card-body">
+                    <h3>{{person.name}}</h3>
+                    <span>{{person.role}}</span>
+                    <p>{{person.number}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

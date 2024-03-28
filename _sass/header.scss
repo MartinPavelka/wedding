@@ -10,13 +10,12 @@
     color: white;
 }
 
-.invite {
-    background: url($baseurl+'/assets/images/flaua.jpg'), rgba(188, 221, 152, 0.95);
+#venue {
+    background-image: linear-gradient(to bottom, rgba(152, 202, 221, 0.95), rgba(0, 0, 0, 0.719)), url($baseurl+'/assets/images/chateau.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 10vh;
     width: 100%;
     color: white;
 }
