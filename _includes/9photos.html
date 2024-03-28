@@ -8,8 +8,8 @@
         </div>
         <div class="row align-items-center mt-5">
             {% for photo in site.data.photos %}
-            <div class="col-md-3">
-                <a href="{{ site.baseurl }}/assets/images/gallery/{{ photo.name }}" data-lightbox="us" data-alt="{{ photo.caption }}"><img src="{{ site.baseurl }}/assets/images/gallery/mini/{{ photo.name }}" alt="{{ photo.caption }}" class="rounded img-thumbnail"></a>
+            <div class="col-md-3 text-center">
+                <a href="{{ site.baseurl }}/assets/images/gallery/{{ photo.name }}" data-lightbox="us" data-alt="{{ photo.caption }}"><img src="{{ site.baseurl }}/assets/images/gallery/mini/{{ photo.name }}" alt="{{ photo.caption }}" class="rounded"></a>
             </div>
             {% endfor %}
         </div>    
