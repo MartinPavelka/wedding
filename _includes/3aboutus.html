@@ -8,7 +8,7 @@
     <div class="row align-items-center">
       {% for person in site.data.couple %}
       <div class="col-md-6 text-center">
-        <img src="{{person.photo}}" class="rounded-circle mt-3 mb-3" alt="{{Image Placeholder}}">
+        <img src="{{site.baseurl}}{{person.photo}}" class="rounded-circle mt-3 mb-3" alt="{{Image Placeholder}}">
         <h3>{{person.long_name}}</h3>
       </div>
       {% endfor %}
