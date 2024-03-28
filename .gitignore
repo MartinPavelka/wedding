@@ -1,3 +1,4 @@
 /_site
 GEMFILE.lock
 debug.yml
+ignore*

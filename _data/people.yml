@@ -1,12 +1,16 @@
 - name: Tereza Mišejková
   role: Svědkyně nevěsty
+  image: /assets/images/people/tereza.png
   number: "+420 777 964 477"
 - name: Fanda Sedláček
   role: Svědek ženicha
   number: "+420 721 176 092"
+  image: /assets/images/people/fanda.png
 - name: Branka Laketić
   role: Maminka nevěsty
   number: "+420 604 295 056"
+  image: /assets/images/people/MaminkaNina.png
 - name: Eva Stočková
   role: Maminka ženicha
   number: "+420 720 759 582"
+  image: /assets/images/people/MaminkaMartin.png

@@ -1,10 +1,32 @@
-- name: proud.jpg
-  caption: Takhle jsme na sebe moc pyšní
-- name: proposal.jpg
-  caption: Tak se konečně odhodlal, šmudlik můj
-- name: posing.jpg
-  caption: Takhle jsme hustí
+- name: beer.jpg
+  caption: Pijeme pivo
+- name: cruise.jpg
+  caption: Koukejte na ten koráb
+- name: dressedup.jpg
+  caption: woháknutý
 - name: fancy.jpg
-  caption: Oháknout se umíme, však uvidíte v červnu
+  caption: Jsme fancy
+- name: filter.jpg
+  caption: Insta filtry jedou
 - name: happy.jpg
-  caption: S úsměvem na tváři dnes, denně, pořád
+  caption: Jsme happy
+- name: harbor.jpg
+  caption: Hmm, lodě
+- name: holiday.jpg
+  caption: Prázdniny!
+- name: park.jpg
+  caption: Sedíme na lavičce
+- name: posing.jpg
+  caption: Póza!
+- name: proposal.jpg
+  caption: Žádost
+- name: proud.jpg
+  caption: Jsem na něho pyšná, na toho pišišmunda
+- name: street.jpg
+  caption: Na ulici
+- name: sweets.jpg
+  caption: Sladíme si život
+- name: tourism.jpg
+  caption: Na tůře
+- name: whiskey.jpg
+  caption: Whiskey je láska, whiskey je život!

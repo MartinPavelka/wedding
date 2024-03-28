@@ -20,6 +20,16 @@
     color: white;
 }
 
+#gifts {
+    background-image: linear-gradient(to bottom, rgba(152, 202, 221, 0.95), rgba(0, 0, 0, 0.719)), url($baseurl+'/assets/images/gifts.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    color: white;
+}
+
 .main-header h1 {
     font-size: 5rem;
 }

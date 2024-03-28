@@ -9,12 +9,11 @@
         </div>
         <div class="row align-items-center mt-5">
             {% for person in site.data.people %}
-            <div class="col-md-3 text-center card pt-3">
-                <div class="card-body">
-                    <h3>{{person.name}}</h3>
-                    <span>{{person.role}}</span>
-                    <p>{{person.number}}</p>
-                </div>
+            <div class="col-md-3 text-center pt-3">
+                <img src="{{site.baseurl}}{{person.image}}" style="max-width: 100%;" class="mb-3">
+                <h3 class="mb-0">{{person.name}}</h3>
+                <span>{{person.role}}</span>
+                <p>{{person.number}}</p>
             </div>
             {% endfor %}
         </div>
