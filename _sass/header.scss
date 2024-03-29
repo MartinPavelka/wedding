@@ -37,3 +37,30 @@
 .main-header p {
     font-size: 3rem;
 }
+
+@support not (background-image: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%)) {
+    .main-header::before {
+      background-image: url($baseurl+'/assets/images/flaua.jpg');
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+    .venue::before {
+        background-image: url($baseurl+'/assets/images/flaua.jpg');
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    .gifts::before {
+    background-image: url($baseurl+'/assets/images/flaua.jpg');
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    }
+  }
