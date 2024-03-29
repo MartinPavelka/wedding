@@ -1,5 +1,5 @@
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .main-header {
@@ -29,7 +29,7 @@
     background-image: linear-gradient(to bottom, rgba(152, 202, 221, 0.95), rgba(0, 0, 0, 0.719)), url($baseurl+'/assets/images/gifts.jpg');
 }
 
-@media screen and (max-device-width: 1079px){
+@supports (-webkit-touch-callout: none) {
     .main-header, #venue, #gifts {
         background-attachment: scroll;
     }
