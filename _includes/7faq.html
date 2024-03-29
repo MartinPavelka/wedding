@@ -3,14 +3,14 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="">Na koho se obrátit</h2>
-                <p>Před samotným dnem svatby samozřejmě můžete obracet na nás</p>
+                <p>Před samotným dnem svatby se samozřejmě můžete obracet na nás</p>
                 <p>Ráno před svatbou je pravděpodobné, že budeme zaneprázdněni, a tak se prosím obracejte naše nejhodnější parťáky a maminky:</p>
             </div>
         </div>
         <div class="row align-items-center mt-5">
             {% for person in site.data.people %}
             <div class="col-md-3 text-center pt-3">
-                <img src="{{site.baseurl}}{{person.image}}" style="max-width: 100%;" class="mb-3">
+                <img src="{{site.baseurl}}{{person.image}}" style="max-width: 100%;" class="rounded-circle mt-3 mb-3">
                 <h3 class="mb-0">{{person.name}}</h3>
                 <span>{{person.role}}</span>
                 <p>{{person.number}}</p>
